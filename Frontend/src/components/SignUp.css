@@ -1,0 +1,92 @@
+/* SignUp.css */
+
+/* Overall page styling */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Container for the sign-up form */
+  .container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in width */
+    overflow: hidden; /* Hide any content that overflows */
+  }
+  
+  /* Form title styling */
+  .container h3 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Register As dropdown styling */
+  .mb-3 label {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Secret Key input styling */
+  .secret-key {
+    display: none;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: #ff0000;
+    margin-top: 10px;
+  }
+  
+  /* Submit button styling */
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* "Already registered" link styling */
+  .forgot-password {
+    margin-top: 20px;
+    color: #555;
+  }
+  
+  .forgot-password a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  

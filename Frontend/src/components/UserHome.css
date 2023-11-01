@@ -1,0 +1,23 @@
+.user-home-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #fff;
+  }
+  
+  .user-info-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .user-info-item {
+    margin-bottom: 5px;
+  }
+  
+  .logout-button {
+    margin-top: 20px;
+  }
+  

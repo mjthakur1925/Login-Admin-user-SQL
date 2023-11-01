@@ -1,0 +1,49 @@
+.auth-wrapper {
+    height: auto;
+  }
+  
+  .auth-inner {
+    width: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user-details-container {
+    margin-top: 20px;
+  }
+  
+  .all-users-details-container {
+    margin-top: 20px;
+  }
+  
+  .filter-container {
+    margin-bottom: 10px;
+  }
+  
+  .users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .users-table th, .users-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .btn-primary {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
